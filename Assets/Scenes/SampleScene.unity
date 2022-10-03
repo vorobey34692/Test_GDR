@@ -1115,6 +1115,7 @@ GameObject:
   - component: {fileID: 920439668}
   - component: {fileID: 920439667}
   - component: {fileID: 920439669}
+  - component: {fileID: 920439671}
   - component: {fileID: 920439670}
   m_Layer: 0
   m_Name: Player
@@ -1213,11 +1214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65c8b6cbd2f5e5448d98b168ce1218b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetPosition: []
   _targetPoint: {fileID: 5515413062137642140, guid: 98606677fb186c04ab95b3eaa7cfe90c,
     type: 3}
   _speedMove: 5
-  _lineRenderer: {fileID: 920439670}
 --- !u!54 &920439668
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1353,6 +1352,19 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &920439671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920439662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a346b60a6187314db3fb265d4402422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lineRenderer: {fileID: 920439670}
 --- !u!1001 &942851765
 PrefabInstance:
   m_ObjectHideFlags: 0
